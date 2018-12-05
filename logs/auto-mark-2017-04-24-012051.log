@@ -1,5 +1,0 @@
-01:20:51.743 [main] INFO   - The execution ended with some errors (for more informations, see the logs)
-01:20:51.744 [main] ERROR errorLog - com.auto.mark.utils.InvalidCommandLineException : The path to the projects directory wasn't set ! Use --help to get more informations.
-	at cmd.auto.mark.ApplicationConfiguration.<init>(ApplicationConfiguration.java:61)
-	at com.auto.mark.App.main(App.java:25)
-

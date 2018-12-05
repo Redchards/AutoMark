@@ -1,7 +1,0 @@
-00:36:57.483 [main] WARN   - Using the default sonar properties file : assignments\results (full path : F:\User\Loic\AutoMark\assignments\results) !
-00:36:57.485 [main] INFO   - The execution ended with some errors (for more informations, see the logs)
-00:36:57.486 [main] ERROR errorLog - com.auto.mark.utils.InvalidCommandLineException : The path of the sonar properties file is invalid, the file 'F:\User\Loic\AutoMark\sonar.plenadis.csv' does not exist ! Use --help to get more informations.
-	at cmd.auto.mark.ApplicationConfiguration.checkFilesExist(ApplicationConfiguration.java:197)
-	at cmd.auto.mark.ApplicationConfiguration.<init>(ApplicationConfiguration.java:110)
-	at com.auto.mark.App.main(App.java:25)
-
