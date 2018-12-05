@@ -1,0 +1,122 @@
+01:26:19.812 [Thread-5] INFO  infoLog - Now analyzing upd.mll5u2o:dupond001.iy001.cadrage (author : cadrageETU001)
+01:26:19.814 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:26:38.972 [Thread-5] INFO  infoLog - Done !                              
+01:26:38.973 [Thread-5] INFO  infoLog - Success !                           
+01:26:38.974 [Thread-5] INFO  infoLog - 
+01:26:38.974 [Thread-5] INFO  infoLog - Compiling ...
+01:26:42.224 [Thread-5] INFO  infoLog - Success !                           
+01:26:42.224 [Thread-5] INFO  infoLog - 
+01:26:42.225 [Thread-5] INFO  infoLog - Executing ...
+01:26:45.099 [Thread-5] INFO  infoLog - Success !                           
+01:26:45.100 [Thread-5] INFO  infoLog - 
+01:26:45.220 [Thread-5] DEBUG  - Report file 'F:\User\Loic\AutoMark\assignments\results\results.csv' already exists, skipping creation.
+01:26:45.223 [Thread-5] DEBUG  - Report file 'F:\User\Loic\AutoMark\assignments\results\details.csv' already exists, skipping creation.
+01:26:45.226 [Thread-5] INFO  infoLog - Now analyzing upd.mll5u2o:dupond002.iy002.cadrage (author : cadrageETU002aveccopie)
+01:26:45.226 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:26:52.056 [Thread-5] INFO  infoLog - Done !                              
+01:26:52.057 [Thread-5] INFO  infoLog - Success !                           
+01:26:52.057 [Thread-5] INFO  infoLog - 
+01:26:52.057 [Thread-5] INFO  infoLog - Compiling ...
+01:26:55.282 [Thread-5] ERROR  -  COMPILATION ERROR : 
+01:26:55.282 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.282 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.282 [Thread-5] ERROR  -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond002.iy002.cadrage: Compilation failure: Compilation failure:
+01:26:55.282 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.282 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.282 [Thread-5] ERROR  -  -> [Help 1]
+01:26:55.282 [Thread-5] ERROR  -  
+01:26:55.283 [Thread-5] ERROR  -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+01:26:55.283 [Thread-5] ERROR  -  Re-run Maven using the -X switch to enable full debug logging.
+01:26:55.283 [Thread-5] ERROR  -  
+01:26:55.283 [Thread-5] ERROR  -  For more information about the errors and possible solutions, please read the following articles:
+01:26:55.283 [Thread-5] ERROR  -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+01:26:55.283 [Thread-5] ERROR errorLog - Failed with :                   
+01:26:55.283 [Thread-5] ERROR errorLog -  COMPILATION ERROR : 
+01:26:55.283 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.284 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.284 [Thread-5] ERROR errorLog -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond002.iy002.cadrage: Compilation failure: Compilation failure:
+01:26:55.284 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.284 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+01:26:55.284 [Thread-5] ERROR errorLog -  -> [Help 1]
+01:26:55.284 [Thread-5] ERROR errorLog -  
+01:26:55.285 [Thread-5] ERROR errorLog -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+01:26:55.285 [Thread-5] ERROR errorLog -  Re-run Maven using the -X switch to enable full debug logging.
+01:26:55.285 [Thread-5] ERROR errorLog -  
+01:26:55.286 [Thread-5] ERROR errorLog -  For more information about the errors and possible solutions, please read the following articles:
+01:26:55.286 [Thread-5] ERROR errorLog -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+01:26:55.286 [Thread-5] INFO  infoLog - 
+01:26:55.287 [Thread-5] INFO  infoLog - Now analyzing upd.mll5u2o:dupond003.iy003.cadrage (author : cadrageETU003avecerreurjunit)
+01:26:55.287 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:27:02.316 [Thread-5] INFO  infoLog - Done !                              
+01:27:02.316 [Thread-5] INFO  infoLog - Success !                           
+01:27:02.317 [Thread-5] INFO  infoLog - 
+01:27:02.317 [Thread-5] INFO  infoLog - Compiling ...
+01:27:05.575 [Thread-5] INFO  infoLog - Success !                           
+01:27:05.576 [Thread-5] INFO  infoLog - 
+01:27:05.576 [Thread-5] INFO  infoLog - Executing ...
+01:27:08.421 [Thread-5] INFO  infoLog - Success !                           
+01:27:08.422 [Thread-5] INFO  infoLog - 
+01:27:08.493 [Thread-5] INFO  infoLog - Now analyzing upd.mll5u2o:dupond004.iy004.cadrage (author : cadrageETU004malecrit)
+01:27:08.493 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:27:15.326 [Thread-5] INFO  infoLog - Done !                              
+01:27:15.327 [Thread-5] INFO  infoLog - Success !                           
+01:27:15.327 [Thread-5] INFO  infoLog - 
+01:27:15.327 [Thread-5] INFO  infoLog - Compiling ...
+01:27:18.559 [Thread-5] INFO  infoLog - Success !                           
+01:27:18.560 [Thread-5] INFO  infoLog - 
+01:27:18.560 [Thread-5] INFO  infoLog - Executing ...
+01:27:21.409 [Thread-5] INFO  infoLog - Success !                           
+01:27:21.409 [Thread-5] INFO  infoLog - 
+01:27:21.479 [Thread-5] INFO  infoLog - Now analyzing upd.mll5u2o:dupond005.iy005.cadrage (author : cadrageETU005nonConforme)
+01:27:21.479 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:27:28.209 [Thread-5] INFO  infoLog - Done !                              
+01:27:28.209 [Thread-5] INFO  infoLog - Success !                           
+01:27:28.210 [Thread-5] INFO  infoLog - 
+01:27:28.210 [Thread-5] INFO  infoLog - Compiling ...
+01:27:31.483 [Thread-5] ERROR  -  COMPILATION ERROR : 
+01:27:31.483 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+01:27:31.483 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+01:27:31.483 [Thread-5] ERROR  -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond005.iy005.cadrage: Compilation failure: Compilation failure:
+01:27:31.483 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+01:27:31.483 [Thread-5] ERROR  -  symbol:   method cadrerAGauche(java.lang.String,int)
+01:27:31.483 [Thread-5] ERROR  -  location: class up5.cadrage.Cadrage
+01:27:31.483 [Thread-5] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+01:27:31.483 [Thread-5] ERROR  -  symbol:   method cadrerAGauche(java.lang.String,int)
+01:27:31.483 [Thread-5] ERROR  -  location: class up5.cadrage.Cadrage
+01:27:31.484 [Thread-5] ERROR  -  -> [Help 1]
+01:27:31.484 [Thread-5] ERROR  -  
+01:27:31.484 [Thread-5] ERROR  -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+01:27:31.484 [Thread-5] ERROR  -  Re-run Maven using the -X switch to enable full debug logging.
+01:27:31.484 [Thread-5] ERROR  -  
+01:27:31.484 [Thread-5] ERROR  -  For more information about the errors and possible solutions, please read the following articles:
+01:27:31.484 [Thread-5] ERROR  -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+01:27:31.484 [Thread-5] ERROR errorLog - Failed with :                   
+01:27:31.487 [Thread-5] ERROR errorLog -  COMPILATION ERROR : 
+01:27:31.494 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+01:27:31.494 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+01:27:31.494 [Thread-5] ERROR errorLog -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond005.iy005.cadrage: Compilation failure: Compilation failure:
+01:27:31.495 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+01:27:31.495 [Thread-5] ERROR errorLog -  symbol:   method cadrerAGauche(java.lang.String,int)
+01:27:31.495 [Thread-5] ERROR errorLog -  location: class up5.cadrage.Cadrage
+01:27:31.498 [Thread-5] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+01:27:31.501 [Thread-5] ERROR errorLog -  symbol:   method cadrerAGauche(java.lang.String,int)
+01:27:31.501 [Thread-5] ERROR errorLog -  location: class up5.cadrage.Cadrage
+01:27:31.502 [Thread-5] ERROR errorLog -  -> [Help 1]
+01:27:31.502 [Thread-5] ERROR errorLog -  
+01:27:31.502 [Thread-5] ERROR errorLog -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+01:27:31.503 [Thread-5] ERROR errorLog -  Re-run Maven using the -X switch to enable full debug logging.
+01:27:31.503 [Thread-5] ERROR errorLog -  
+01:27:31.503 [Thread-5] ERROR errorLog -  For more information about the errors and possible solutions, please read the following articles:
+01:27:31.514 [Thread-5] ERROR errorLog -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+01:27:31.517 [Thread-5] INFO  infoLog - 
+01:27:31.522 [Thread-5] INFO  infoLog - Now analyzing spc.up5.parchemal:cadrage (author : cadragePROF)
+01:27:31.525 [Thread-5] INFO  infoLog - Launching sonar analysis ...
+01:27:38.472 [Thread-5] INFO  infoLog - Done !                              
+01:27:38.473 [Thread-5] INFO  infoLog - Success !                           
+01:27:38.475 [Thread-5] INFO  infoLog - 
+01:27:38.475 [Thread-5] INFO  infoLog - Compiling ...
+01:27:41.834 [Thread-5] INFO  infoLog - Success !                           
+01:27:41.835 [Thread-5] INFO  infoLog - 
+01:27:41.835 [Thread-5] INFO  infoLog - Executing ...
+01:27:44.775 [Thread-5] INFO  infoLog - Success !                           
+01:27:44.776 [Thread-5] INFO  infoLog - 

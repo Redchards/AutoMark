@@ -1,0 +1,7 @@
+00:18:05.644 [main] WARN   - Using the default sonar properties file : assignments\results (full path : F:\User\Loic\AutoMark\assignments\results) !
+00:18:05.777 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond001.iy001.cadrage (author : cadrageETU001)
+00:18:05.777 [main] INFO  infoLog - Launching sonar analysis ...
+00:18:16.318 [main] INFO  infoLog - Done !                              
+00:18:16.318 [main] INFO  infoLog - Success !                           
+00:18:16.318 [main] INFO  infoLog - 
+00:18:16.319 [main] INFO  infoLog - Compiling ...

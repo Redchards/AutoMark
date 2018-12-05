@@ -1,0 +1,37 @@
+ID,description,occurrences
+upd.mll5u2o:dupond001.iy001.cadrage:cadrageETU001
+cadrerADroiteTest,FAILED : expected:<xxxxxazert[]> but was:<xxxxxazert[erreur]>,
+cadrerADroiteTronque,FAILED : expected:<aze[]> but was:<aze[erreur]>,
+cadrerAGaucheTest,PASSED,
+cadrerAGaucheTronque,PASSED,
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",1
+upd.mll5u2o:dupond003.iy003.cadrage:cadrageETU003avecerreurjunit
+cadrerADroiteTest,PASSED,
+cadrerADroiteTronque,PASSED,
+cadrerAGaucheTest,PASSED,
+cadrerAGaucheTronque,PASSED,
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",1
+squid:S1118,Add a private constructor to hide the implicit public one.,1
+squid:S106,Replace this usage of System.out or System.err by a logger.,2
+upd.mll5u2o:dupond004.iy004.cadrage:cadrageETU004malecrit
+cadrerADroiteTest,PASSED,
+cadrerADroiteTronque,PASSED,
+cadrerAGaucheTest,PASSED,
+cadrerAGaucheTronque,PASSED,
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",2
+squid:S1118,Add a private constructor to hide the implicit public one.,1
+squid:S106,Replace this usage of System.out or System.err by a logger.,2
+spc.up5.parchemal:cadrage:cadragePROF
+cadrerADroiteTest,PASSED,
+cadrerADroiteTronque,PASSED,
+cadrerAGaucheTest,PASSED,
+cadrerAGaucheTronque,PASSED,
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",1
+squid:S106,Replace this usage of System.out or System.err by a logger.,2
+upd.mll5u2o:dupond002.iy002.cadrage:cadrageETU002aveccopie
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",2
+squid:S1118,Add a private constructor to hide the implicit public one.,1
+squid:S106,Replace this usage of System.out or System.err by a logger.,2
+upd.mll5u2o:dupond005.iy005.cadrage:cadrageETU005nonConforme
+squid:S00122,"At most one statement is allowed per line, but 2 statements were found on this line.",2
+squid:S1118,Add a private constructor to hide the implicit public one.,1

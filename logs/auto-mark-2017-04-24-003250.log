@@ -1,0 +1,125 @@
+00:32:51.057 [main] WARN   - Using the default sonar properties file : assignments\results (full path : F:\User\Loic\AutoMark\assignments\results) !
+00:32:51.339 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond001.iy001.cadrage (author : cadrageETU001)
+00:32:51.339 [main] INFO  infoLog - Launching sonar analysis ...
+00:32:58.397 [main] INFO  infoLog - Done !                              
+00:32:58.397 [main] INFO  infoLog - Success !                           
+00:32:58.397 [main] INFO  infoLog - 
+00:32:58.398 [main] INFO  infoLog - Compiling ...
+00:33:01.764 [main] INFO  infoLog - Success !                           
+00:33:01.765 [main] INFO  infoLog - 
+00:33:01.765 [main] INFO  infoLog - Executing ...
+00:33:04.815 [main] INFO  infoLog - Success !                           
+00:33:04.815 [main] INFO  infoLog - 
+00:33:04.927 [main] DEBUG  - Report file 'F:\User\Loic\AutoMark\assignments\results\results.csv' already exists, skipping creation.
+00:33:04.930 [main] DEBUG  - Report file 'F:\User\Loic\AutoMark\assignments\results\details.csv' already exists, skipping creation.
+00:33:04.933 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond002.iy002.cadrage (author : cadrageETU002aveccopie)
+00:33:04.933 [main] INFO  infoLog - Launching sonar analysis ...
+00:33:11.990 [main] INFO  infoLog - Done !                              
+00:33:11.991 [main] INFO  infoLog - Success !                           
+00:33:11.991 [main] INFO  infoLog - 
+00:33:11.991 [main] INFO  infoLog - Compiling ...
+00:33:15.566 [main] ERROR  -  COMPILATION ERROR : 
+00:33:15.566 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.566 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.566 [main] ERROR  -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond002.iy002.cadrage: Compilation failure: Compilation failure:
+00:33:15.566 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.566 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.566 [main] ERROR  -  -> [Help 1]
+00:33:15.566 [main] ERROR  -  
+00:33:15.566 [main] ERROR  -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+00:33:15.566 [main] ERROR  -  Re-run Maven using the -X switch to enable full debug logging.
+00:33:15.567 [main] ERROR  -  
+00:33:15.567 [main] ERROR  -  For more information about the errors and possible solutions, please read the following articles:
+00:33:15.567 [main] ERROR  -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+00:33:15.567 [main] ERROR errorLog - Failed with :                   
+00:33:15.567 [main] ERROR errorLog -  COMPILATION ERROR : 
+00:33:15.567 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.567 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.568 [main] ERROR errorLog -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond002.iy002.cadrage: Compilation failure: Compilation failure:
+00:33:15.568 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[18,68] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.568 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[23,61] unreported exception java.io.IOException; must be caught or declared to be thrown
+00:33:15.568 [main] ERROR errorLog -  -> [Help 1]
+00:33:15.568 [main] ERROR errorLog -  
+00:33:15.568 [main] ERROR errorLog -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+00:33:15.568 [main] ERROR errorLog -  Re-run Maven using the -X switch to enable full debug logging.
+00:33:15.569 [main] ERROR errorLog -  
+00:33:15.569 [main] ERROR errorLog -  For more information about the errors and possible solutions, please read the following articles:
+00:33:15.569 [main] ERROR errorLog -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+00:33:15.569 [main] INFO  infoLog - 
+00:33:15.570 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond003.iy003.cadrage (author : cadrageETU003avecerreurjunit)
+00:33:15.570 [main] INFO  infoLog - Launching sonar analysis ...
+00:33:22.714 [main] INFO  infoLog - Done !                              
+00:33:22.715 [main] INFO  infoLog - Success !                           
+00:33:22.715 [main] INFO  infoLog - 
+00:33:22.715 [main] INFO  infoLog - Compiling ...
+00:33:26.190 [main] INFO  infoLog - Success !                           
+00:33:26.190 [main] INFO  infoLog - 
+00:33:26.190 [main] INFO  infoLog - Executing ...
+00:33:29.208 [main] INFO  infoLog - Success !                           
+00:33:29.209 [main] INFO  infoLog - 
+00:33:29.263 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond004.iy004.cadrage (author : cadrageETU004malecrit)
+00:33:29.263 [main] INFO  infoLog - Launching sonar analysis ...
+00:33:36.317 [main] INFO  infoLog - Done !                              
+00:33:36.317 [main] INFO  infoLog - Success !                           
+00:33:36.317 [main] INFO  infoLog - 
+00:33:36.317 [main] INFO  infoLog - Compiling ...
+00:33:39.609 [main] INFO  infoLog - Success !                           
+00:33:39.609 [main] INFO  infoLog - 
+00:33:39.610 [main] INFO  infoLog - Executing ...
+00:33:42.481 [main] INFO  infoLog - Success !                           
+00:33:42.482 [main] INFO  infoLog - 
+00:33:42.551 [main] INFO  infoLog - Now analyzing upd.mll5u2o:dupond005.iy005.cadrage (author : cadrageETU005nonConforme)
+00:33:42.552 [main] INFO  infoLog - Launching sonar analysis ...
+00:33:49.420 [main] INFO  infoLog - Done !                              
+00:33:49.422 [main] INFO  infoLog - Success !                           
+00:33:49.422 [main] INFO  infoLog - 
+00:33:49.423 [main] INFO  infoLog - Compiling ...
+00:33:52.782 [main] ERROR  -  COMPILATION ERROR : 
+00:33:52.782 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+00:33:52.782 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+00:33:52.782 [main] ERROR  -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond005.iy005.cadrage: Compilation failure: Compilation failure:
+00:33:52.782 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+00:33:52.782 [main] ERROR  -  symbol:   method cadrerAGauche(java.lang.String,int)
+00:33:52.782 [main] ERROR  -  location: class up5.cadrage.Cadrage
+00:33:52.782 [main] ERROR  -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+00:33:52.782 [main] ERROR  -  symbol:   method cadrerAGauche(java.lang.String,int)
+00:33:52.782 [main] ERROR  -  location: class up5.cadrage.Cadrage
+00:33:52.782 [main] ERROR  -  -> [Help 1]
+00:33:52.782 [main] ERROR  -  
+00:33:52.782 [main] ERROR  -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+00:33:52.782 [main] ERROR  -  Re-run Maven using the -X switch to enable full debug logging.
+00:33:52.782 [main] ERROR  -  
+00:33:52.782 [main] ERROR  -  For more information about the errors and possible solutions, please read the following articles:
+00:33:52.782 [main] ERROR  -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+00:33:52.782 [main] ERROR errorLog - Failed with :                   
+00:33:52.785 [main] ERROR errorLog -  COMPILATION ERROR : 
+00:33:52.787 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+00:33:52.788 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+00:33:52.789 [main] ERROR errorLog -  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.3:compile (default-compile) on project dupond005.iy005.cadrage: Compilation failure: Compilation failure:
+00:33:52.794 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[13,54] cannot find symbol
+00:33:52.795 [main] ERROR errorLog -  symbol:   method cadrerAGauche(java.lang.String,int)
+00:33:52.796 [main] ERROR errorLog -  location: class up5.cadrage.Cadrage
+00:33:52.796 [main] ERROR errorLog -  /F:/User/Loic/AutoMark/tests/cadrage/CadrageTest.java:[28,47] cannot find symbol
+00:33:52.797 [main] ERROR errorLog -  symbol:   method cadrerAGauche(java.lang.String,int)
+00:33:52.797 [main] ERROR errorLog -  location: class up5.cadrage.Cadrage
+00:33:52.798 [main] ERROR errorLog -  -> [Help 1]
+00:33:52.799 [main] ERROR errorLog -  
+00:33:52.799 [main] ERROR errorLog -  To see the full stack trace of the errors, re-run Maven with the -e switch.
+00:33:52.800 [main] ERROR errorLog -  Re-run Maven using the -X switch to enable full debug logging.
+00:33:52.800 [main] ERROR errorLog -  
+00:33:52.800 [main] ERROR errorLog -  For more information about the errors and possible solutions, please read the following articles:
+00:33:52.801 [main] ERROR errorLog -  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+00:33:52.801 [main] INFO  infoLog - 
+00:33:52.803 [main] INFO  infoLog - Now analyzing spc.up5.parchemal:cadrage (author : cadragePROF)
+00:33:52.805 [main] INFO  infoLog - Launching sonar analysis ...
+00:33:59.969 [main] INFO  infoLog - Done !                              
+00:33:59.971 [main] INFO  infoLog - Success !                           
+00:33:59.971 [main] INFO  infoLog - 
+00:33:59.981 [main] INFO  infoLog - Compiling ...
+00:34:03.361 [main] INFO  infoLog - Success !                           
+00:34:03.362 [main] INFO  infoLog - 
+00:34:03.362 [main] INFO  infoLog - Executing ...
+00:34:06.385 [main] INFO  infoLog - Success !                           
+00:34:06.387 [main] INFO  infoLog - 
+00:34:06.559 [main] INFO   - Everything processed !
+00:34:06.560 [main] INFO   - See the results in F:\User\Loic\AutoMark\assignments\results

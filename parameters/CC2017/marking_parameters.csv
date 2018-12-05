@@ -1,0 +1,14 @@
+0.5
+squid:S1118;0.05;0.1;1;4
+squid:S00122;0.07;0.1;1;6
+squid:S1117;0.003;0.01;1;5
+squid:S2095;0.1;0.5;1;3
+squid:S1166;0.005;0.02;1;6
+squid:S1659;0.001;0.009;1;3
+squid:S2093;0.1;0.2;1;2
+squid:S2737;0.02;0.05;1;3
+squid:S1696;0.001;0.01;1;4
+squid:S1217;0.01;0.02;1;2
+squid:EmptyStatementUsageCheck;0.004;0.05;1;7
+squid:SwitchLastCaseIsDefaultCheck;0.05;0.1;1;2
+common-java:InsufficientCommentDensity;0.02;0.03;1;2

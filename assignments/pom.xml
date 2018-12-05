@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>marked.test</groupId>
+  <artifactId>GeneratedDependencies</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0</version>
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>1.12</version>
+          <executions>
+            <execution>
+              <id>add-source</id>
+              <phase>generate-sources</phase>
+              <goals>
+                <goal>add-source</goal>
+              </goals>
+              <configuration>
+                <sources>
+                  <source>F:\User\Loic\AutoMark\tests\cadrage</source>
+                </sources>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+  <properties>
+    <sonar.language>java</sonar.language>
+    <sonar.login>f87caff56ae91ff6bc7203185994ac90de9fb901</sonar.login>
+    <sonar.host.url>http://plenadis.math-info.univ-paris5.fr:9000/</sonar.host.url>
+  </properties>
+</project>

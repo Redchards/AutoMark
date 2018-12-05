@@ -1,0 +1,7 @@
+projectId,status,cadrerADroiteTest,cadrerADroiteTronque,cadrerAGaucheTest,cadrerAGaucheTronque,factor,finalResult
+upd.mll5u2o:dupond001.iy001.cadrage:cadrageETU001,SUCCESS,0,0,3.0,1.5,0.98,11.025
+upd.mll5u2o:dupond003.iy003.cadrage:cadrageETU003avecerreurjunit,SUCCESS,2.0,1.5,3.0,1.5,0.9099999999999999,18.2
+upd.mll5u2o:dupond004.iy004.cadrage:cadrageETU004malecrit,SUCCESS,2.0,1.5,3.0,1.5,0.8799999999999999,17.599999999999998
+spc.up5.parchemal:cadrage:cadragePROF,SUCCESS,2.0,1.5,3.0,1.5,0.96,19.2
+upd.mll5u2o:dupond002.iy002.cadrage:cadrageETU002aveccopie,FAILURE,0,0,0,0,1.0,0
+upd.mll5u2o:dupond005.iy005.cadrage:cadrageETU005nonConforme,FAILURE,0,0,0,0,1.0,0
