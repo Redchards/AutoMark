@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="476.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.auto.mark.MainController">
+   <children>
+      <TextField id="projectsPath" fx:id="projectsPath" layoutX="340.0" layoutY="71.0" prefHeight="25.0" prefWidth="203.0" promptText="Project's path" />
+      <Button id="browseProjectsDirButton" fx:id="browseProjectsDirButton" layoutX="564.0" layoutY="71.0" mnemonicParsing="false" text="Browse..." />
+      <Label layoutX="15.0" layoutY="54.0" text="Project :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button id="launchButton" fx:id="launchButton" layoutX="113.0" layoutY="382.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="458.0" text="Launch analysis" />
+      <Label layoutX="11.0" layoutY="123.0" text="Test file : ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="testsPath" fx:id="testsPath" layoutX="341.0" layoutY="140.0" prefHeight="25.0" prefWidth="202.0" promptText="Test file's path" />
+      <Button id="browseTestsDirButton" fx:id="browseTestsDirButton" layoutX="564.0" layoutY="140.0" mnemonicParsing="false" text="Browse..." />
+      <Label layoutX="41.0" layoutY="78.0" text="The directory containing the projects : " />
+      <Label layoutX="40.0" layoutY="147.0" text="The directory containing the test files : " />
+      <ProgressBar id="progressBar" fx:id="progressBar" layoutX="46.0" layoutY="340.0" prefHeight="18.0" prefWidth="592.0" progress="0.0" />
+      <Accordion layoutX="3.0" layoutY="1.0" />
+      <MenuBar fx:id="menuBar" layoutX="2.0" layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Open projects directory" />
+              <MenuItem mnemonicParsing="false" text="Open tests directory" />
+                  <MenuItem mnemonicParsing="false" text="Open marking parameters file" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Windows">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Settings" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ProgressIndicator fx:id="progressIndicator" layoutX="327.0" layoutY="268.0" progress="0.0" />
+      <Label layoutX="41.0" layoutY="222.0" text="Marking parameters :" />
+      <TextField fx:id="markingParametersPath" layoutX="340.0" layoutY="215.0" prefHeight="25.0" prefWidth="202.0" promptText="Marking parameters file path" />
+      <Label layoutX="11.0" layoutY="188.0" text="Marking parameters :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="browseMarkingParametersButton" layoutX="564.0" layoutY="215.0" mnemonicParsing="false" text="Browse..." />
+   </children>
+</AnchorPane>

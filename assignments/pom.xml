@@ -21,7 +21,7 @@
               </goals>
               <configuration>
                 <sources>
-                  <source>F:\User\Loic\AutoMark\tests\cadrage</source>
+                  <source>C:\Users\Loic\workspace\ProtoMark\tests\cadrage</source>
                 </sources>
               </configuration>
             </execution>
@@ -32,7 +32,8 @@
   </build>
   <properties>
     <sonar.language>java</sonar.language>
-    <sonar.login>f87caff56ae91ff6bc7203185994ac90de9fb901</sonar.login>
-    <sonar.host.url>http://plenadis.math-info.univ-paris5.fr:9000/</sonar.host.url>
+    <sonar.login>admin</sonar.login>
+    <sonar.password>admin</sonar.password>
+    <sonar.host.url>http://localhost:9000</sonar.host.url>
   </properties>
 </project>

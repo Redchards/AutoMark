@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="448.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.auto.mark.SettingsWindowController">
+   <children>
+      <ListView fx:id="settingsList" prefHeight="400.0" prefWidth="151.0" />
+      <AnchorPane fx:id="settingsDisplayZone" layoutX="151.0" prefHeight="400.0" prefWidth="449.0" />
+      <ButtonBar fx:id="bottomButtonBar" layoutX="357.0" layoutY="405.0" prefHeight="40.0" prefWidth="229.0">
+        <buttons>
+          <Button fx:id="applyButton" mnemonicParsing="false" text="Apply" />
+            <Button fx:id="okButton" mnemonicParsing="false" text="OK" />
+        </buttons>
+      </ButtonBar>
+      <Separator layoutX="-2.0" layoutY="402.0" prefHeight="0.0" prefWidth="608.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>

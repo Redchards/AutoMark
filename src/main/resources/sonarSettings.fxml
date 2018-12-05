@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.auto.mark.SonarSettingsController">
+   <children>
+      <TextField fx:id="sonarUrl" layoutX="222.0" layoutY="33.0" />
+      <TextField fx:id="sonarLogin" layoutX="222.0" layoutY="98.0" />
+      <TextField fx:id="sonarPassword" layoutX="222.0" layoutY="165.0" />
+      <Label layoutX="83.0" layoutY="37.0" text="Sonar URL :" />
+      <Label layoutX="83.0" layoutY="102.0" text="Sonar Login :" />
+      <Label layoutX="83.0" layoutY="169.0" text="Sonar Password* :" />
+      <TextField fx:id="sonarOrganization" layoutX="222.0" layoutY="234.0" />
+      <Label layoutX="80.0" layoutY="238.0" text="Sonar Organization* :" />
+      <Label layoutX="14.0" layoutY="369.0" text="The value indicated by a '*' are optional" textFill="#a19b9b" />
+   </children>
+</AnchorPane>

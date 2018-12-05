@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" layoutX="4.0" layoutY="267.0" prefHeight="220.0" prefWidth="392.0" text="AutoMark automatic marking tool&#10;&#10;Version 1.0 stable release&#10;&#10;This product is the property of the university Paris-Descartes, France,&#10;and is licensed under the apache V2 license : &#10;http://www.apache.org/licenses/LICENSE-2.0&#10;&#10;Originally developped as the programming project assignment of&#10;the team L3R1, tutored by M. Parchemal." AnchorPane.bottomAnchor="3.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="3.0" />
+      <ImageView fitHeight="199.0" fitWidth="224.0" layoutX="53.0" layoutY="14.0" AnchorPane.bottomAnchor="284.0" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="127.0" AnchorPane.topAnchor="14.0">
+         <image>
+            <Image url="@AutoMarkLogo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="184.0" layoutX="110.0" layoutY="219.0" AnchorPane.bottomAnchor="239.0" AnchorPane.leftAnchor="110.0" AnchorPane.rightAnchor="110.0" AnchorPane.topAnchor="219.0">
+         <image>
+            <Image url="@TitleAlone.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

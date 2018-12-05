@@ -1,0 +1,119 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>auto.mark</groupId>
+	<artifactId>automark</artifactId>
+	<version>1.0</version>
+	<packaging>jar</packaging>
+
+	<name>AutoMark</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<sonar.language>java</sonar.language>
+		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.login>yourlogin</sonar.login>
+		<!--<sonar.organization>hello</sonar.organization>-->
+		<!--<sonar.password>admin</sonar.password>-->
+		<sonar.scm.disabled>true</sonar.scm.disabled>
+	</properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.reflections</groupId>
+      <artifactId>reflections-maven</artifactId>
+      <version>0.9.9-RC2</version>
+	</dependency>
+	<dependency>
+      <groupId>org.apache.maven.shared</groupId>
+      <artifactId>maven-invoker</artifactId>
+      <version>2.2</version>
+	</dependency>
+	<dependency>
+	  <groupId>org.apache.commons</groupId>
+	  <artifactId>commons-csv</artifactId>
+	  <version>1.4</version>
+	</dependency>
+	<dependency>
+	  <groupId>commons-io</groupId>
+	  <artifactId>commons-io</artifactId>
+	  <version>2.5</version>
+	</dependency>
+	<dependency> <!-- Log4j depends on JCommander, could replace commons-cli with it -->
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.7</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.7</version>
+	</dependency>
+	<dependency>
+      <groupId>org.fusesource.jansi</groupId> <!-- Should only be imported on windows -->
+      <artifactId>jansi</artifactId>
+      <version>1.10</version>
+      <scope>runtime</scope>
+	</dependency>
+	<dependency>
+      <groupId>com.beust</groupId>
+      <artifactId>jcommander</artifactId>
+      <version>1.60</version>
+	</dependency> <!--  to remove maybe -->
+	<dependency>
+      <groupId>net.lingala.zip4j</groupId>
+      <artifactId>zip4j</artifactId>
+      <version>1.3.2</version>
+	</dependency>
+	<dependency>
+      <groupId>org.glassfish</groupId>
+      <artifactId>javax.json</artifactId>
+      <version>1.0.4</version>
+	</dependency>
+	<dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	    <version>1.10</version>
+	</dependency>
+  </dependencies>
+  
+  <build>
+	<plugins>
+      <plugin>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-compiler-plugin</artifactId>
+		<version>3.6.1</version>
+		<configuration>
+		  <source>1.8</source>
+	      <target>1.8</target>
+		</configuration>
+	  </plugin>
+	  <plugin>
+		<artifactId>maven-assembly-plugin</artifactId>
+		<configuration>
+		  <archive>
+		    <manifest>
+			  <mainClass>com.auto.mark.App</mainClass>
+		    </manifest>
+		  </archive>
+		  <descriptorRefs>
+		    <descriptorRef>jar-with-dependencies</descriptorRef>
+		  </descriptorRefs>
+		</configuration>
+	  </plugin>
+	  <plugin>
+        <groupId>org.sonarsource.scanner.maven</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.2</version>
+      </plugin>
+	</plugins>
+  </build>
+</project>
